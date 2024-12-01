@@ -34,8 +34,8 @@ These diverse data points provided a rich foundation for the analysis of custome
 
 ### **Data Cleaning and Preparation**  
 The dataset underwent a thorough cleaning process:  
-- Verified and handled missing values. No null data were identified in this case.  
-- Transformed raw data by calculating derived metrics, such as total spending and spending per category.  
+- Verified and handled missing values. Income columns contained 24 null values and was removed.  
+- Transformed raw data by calculating derived metrics, such as total spending and spending segment.  
 - Standardized data formats for consistency.  
 - Segmented customers into groups (low, medium, and high spenders) to facilitate targeted analysis.  
 
@@ -62,26 +62,37 @@ The analysis employed the following steps:
 ### **Detailed Insights and Visualizations**  
 
 **1. Age Distribution of Customers**  
+
+![](images/Screenshot%202024-11-30%20140121.png)
+
 - Customers ranged in age from 30 to 80 years, with a mean age of **52.9 years**.  
 - The majority of customers fell within the 40–60 age range, as shown in the histogram below. This demographic represents a key target group for marketing efforts.  
 
-![Age Distribution](Screenshot%202024-11-30%20004237.png)
+**2. Spending Trends by Product Category** 
 
-**2. Spending Trends by Product Category**  
+![](images/Screenshot%202024-11-30%20135825.png)
+
 - **Wine** emerged as the most popular product category, followed by **meat** products.  
 - Spending on **fruits**, **sweets**, and **gold** was relatively lower, suggesting opportunities for growth in these categories.  
 - The average total spending per customer was **\$605.8**, with significant variations based on demographic factors like age, income, and education level.  
 
 **3. Campaign Effectiveness**  
+
+![](images/Screenshot%202024-11-30%20140108.png)
+
 - Campaigns **3, 4, and 5** had the highest acceptance rates, reflecting their success in engaging customers.  
 - Campaign **1** had the lowest acceptance rate, indicating potential flaws in its design or targeting strategy.  
 - These findings highlight the importance of tailored campaign design to maximize engagement.  
 
 **4. Education Level and Spending Behavior**  
+
+![](images/Screenshot%202024-11-30%20135508.png)
+
 - Customers with a **2nd Cycle** education spent the most, followed by those with **PhDs** and **Master’s degrees**.  
 - Customers with basic education levels showed lower spending, suggesting a potential need for more inclusive marketing strategies targeting this group.  
 
 **5. Key Spending Insights**  
+
 - High spenders were predominantly middle-aged, with higher income and education levels.  
 - Low spenders were often in the younger or older age brackets, with less education or income.  
 
